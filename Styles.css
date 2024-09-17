@@ -11,3 +11,23 @@ h2 {
     text-align: left;
     color: #22c7f5;
 }
+.about {
+    text-align: left;
+    offset: 50px;
+    color: rgb(230, 215, 2);
+}
+.skills {
+    text-align: left;
+    offset: 50px;
+    color: rgb(21, 202, 243);
+}
+.projects {
+    text-align: left;
+    offset: 50px;
+    color: rgb(157, 255, 0);
+}
+.contact {
+    text-align: left;
+    offset: 50px;
+    color: rgb(40, 230, 2)
+}
