@@ -11,15 +11,11 @@ h2 {
     text-align: left;
     color: #22c7f5;
 }
-.about {
-    text-align: left;
-    offset: 50px;
-    color: rgb(230, 215, 2);
-}
 .skills {
     text-align: left;
     offset: 50px;
     color: rgb(21, 202, 243);
+    margin: 40px;
 }
 .projects {
     display:flex; 
@@ -55,4 +51,24 @@ a {
     text-align: left;
     offset: 50px;
     color: rgb(40, 230, 2)
+}
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    color: rgb(230, 215, 2);
+}
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
 }
